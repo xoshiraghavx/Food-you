@@ -199,6 +199,9 @@ nav {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
+.logo-div{
+  display: flex; 
+}
 .logo {
   height: 90px;
   width: 90px;
@@ -401,19 +404,19 @@ nav {
 .photo {
   object-fit: cover;
   height: 200px;
-  border: 0.25rem solid var(--clr-gold);
+  border: 0.25rem solid var(--clr-primary-7);
   border-radius: var(--radius);
 }
 .item-info header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px dotted var(--clr-grey-5);
+  border-bottom: 0.5px dotted var(--clr-primary-5);
 }
 .item-info h4 {
   margin-bottom: 0.5rem;
 }
 .price {
-  color: var(--clr-gold);
+  color: var(--clr-primary-1);
 }
 .item-text {
   margin-bottom: 0;
