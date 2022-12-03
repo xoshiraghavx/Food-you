@@ -285,10 +285,6 @@ nav {
   display: grid;
   place-items: center;
 }
-.banner h2{
-  color: var(--clr-primary-12);
-  font-family: "Great Vibes", cursive;
-}
 .banner {
   background: var(--clr-white);
   padding: 4rem 0;
@@ -330,7 +326,7 @@ nav {
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 90%;
+  height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -546,7 +542,7 @@ Questions
 }
 .about-col img{
   width: 100%;
-  height: 100%;
+  width: 100%;
 }
 .about-col p{
   padding: 15px 0 95px;
@@ -562,20 +558,4 @@ Questions
 .row{
   display: flex;
   flex-direction: row;
-}
-.contact-col{
-  flex-basis: 48%;
-  margin: 30px;
-}
-.contact-col input, .contact-col textarea{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 17px;
-  outline: none;
-  border: 1px solid #ccc;
-  box-sizing:border-box ;
-}
-.modal-container h3{
-  color: var(--clr-primary-5);
-  font-family: "Great Vibes", cursive;
 }

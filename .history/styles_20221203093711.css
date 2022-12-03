@@ -286,8 +286,9 @@ nav {
   place-items: center;
 }
 .banner h2{
-  color: var(--clr-primary-12);
+  color: var(--clr-primary-);
   font-family: "Great Vibes", cursive;
+  text-align: center;
 }
 .banner {
   background: var(--clr-white);
@@ -330,7 +331,7 @@ nav {
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 90%;
+  height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -562,20 +563,4 @@ Questions
 .row{
   display: flex;
   flex-direction: row;
-}
-.contact-col{
-  flex-basis: 48%;
-  margin: 30px;
-}
-.contact-col input, .contact-col textarea{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 17px;
-  outline: none;
-  border: 1px solid #ccc;
-  box-sizing:border-box ;
-}
-.modal-container h3{
-  color: var(--clr-primary-5);
-  font-family: "Great Vibes", cursive;
 }

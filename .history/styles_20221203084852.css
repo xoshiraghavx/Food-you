@@ -213,7 +213,7 @@ nav {
   color: var(--clr-red-dark);
   
 }
-/* .links a {
+.links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
   text-transform: capitalize;
@@ -226,15 +226,15 @@ nav {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
-} */
+}
 .social-icons {
   display: none;
 }
-/* .links {
+.links {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
-} */
+}
 .show-links {
   height: 10rem;
 }
@@ -253,7 +253,7 @@ nav {
   .nav-toggle {
     display: none;
   }
-  /* .links {
+  .links {
     height: auto;
     display: flex;
   }
@@ -264,7 +264,7 @@ nav {
   .links a:hover {
     padding: 0;
     background: transparent;
-  } */
+  }
   
   .social-icons {
     display: flex;
@@ -284,10 +284,6 @@ nav {
   background: linear-gradient(rgba(4, 9, 30, 0.421),rgba(4, 9, 30, 0.421)),url("https://discovertemplate.com/wp-content/uploads/2020/11/DT_G62_Food-drink-Animated-GIF-Icon-Pack.gif") center/cover no-repeat;
   display: grid;
   place-items: center;
-}
-.banner h2{
-  color: var(--clr-primary-12);
-  font-family: "Great Vibes", cursive;
 }
 .banner {
   background: var(--clr-white);
@@ -330,7 +326,7 @@ nav {
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 90%;
+  height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -353,6 +349,10 @@ nav {
   transform: scale(1.3);
 }
 /* menu css */
+
+.menu {
+  padding: 5rem 0;
+}
 .title {
   text-align: center;
   margin-bottom: 2rem;
@@ -519,7 +519,6 @@ Questions
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background: var(--clr-primary-10);
 }
 .footer h4{
   margin-bottom: 25px;
@@ -528,9 +527,6 @@ Questions
 }
 .icons{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .icons .fab{
   color: var(--clr-primary-5);
@@ -538,44 +534,4 @@ Questions
   cursor: pointer;
   padding: 18px 0;
 }
-/* -------about us page------- */
-.about-us{
-  width: 75%;
-  margin: auto;
-  padding-top: 6rem;
-}
-.about-col img{
-  width: 100%;
-  height: 100%;
-}
-.about-col p{
-  padding: 15px 0 95px;
-}
-/* .red-btn{
-  border: 1px solid #f44336;
-  background: transparent;
-  color: #f44336;
-}
-.red-btn:hover{
-  color: #fff;
-} */
-.row{
-  display: flex;
-  flex-direction: row;
-}
-.contact-col{
-  flex-basis: 48%;
-  margin: 30px;
-}
-.contact-col input, .contact-col textarea{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 17px;
-  outline: none;
-  border: 1px solid #ccc;
-  box-sizing:border-box ;
-}
-.modal-container h3{
-  color: var(--clr-primary-5);
-  font-family: "Great Vibes", cursive;
-}
+

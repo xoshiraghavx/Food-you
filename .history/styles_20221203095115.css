@@ -575,7 +575,8 @@ Questions
   border: 1px solid #ccc;
   box-sizing:border-box ;
 }
-.modal-container h3{
-  color: var(--clr-primary-5);
+.bannecontact-col h2{
+  color: var(--clr-primary-12);
   font-family: "Great Vibes", cursive;
+  text-align: center;
 }

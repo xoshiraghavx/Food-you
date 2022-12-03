@@ -288,6 +288,7 @@ nav {
 .banner h2{
   color: var(--clr-primary-12);
   font-family: "Great Vibes", cursive;
+  text-align: center;
 }
 .banner {
   background: var(--clr-white);
@@ -567,6 +568,17 @@ Questions
   flex-basis: 48%;
   margin: 30px;
 }
+.contact-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
 .contact-col input, .contact-col textarea{
   width: 100%;
   padding: 15px;
@@ -575,7 +587,4 @@ Questions
   border: 1px solid #ccc;
   box-sizing:border-box ;
 }
-.modal-container h3{
-  color: var(--clr-primary-5);
-  font-family: "Great Vibes", cursive;
-}
+Footer

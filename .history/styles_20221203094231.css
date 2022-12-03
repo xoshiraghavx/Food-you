@@ -280,7 +280,7 @@ nav {
 }
 /* modal css  */
 .hero {
-  height: 100vh;
+  height: 100;
   background: linear-gradient(rgba(4, 9, 30, 0.421),rgba(4, 9, 30, 0.421)),url("https://discovertemplate.com/wp-content/uploads/2020/11/DT_G62_Food-drink-Animated-GIF-Icon-Pack.gif") center/cover no-repeat;
   display: grid;
   place-items: center;
@@ -288,6 +288,7 @@ nav {
 .banner h2{
   color: var(--clr-primary-12);
   font-family: "Great Vibes", cursive;
+  text-align: center;
 }
 .banner {
   background: var(--clr-white);
@@ -330,7 +331,7 @@ nav {
   background: var(--clr-white);
   border-radius: var(--radius);
   width: 90vw;
-  height: 90%;
+  height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;
   display: grid;
@@ -565,7 +566,27 @@ Questions
 }
 .contact-col{
   flex-basis: 48%;
-  margin: 30px;
+  margin-bottom: 30px;
+}
+.contact-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fa{
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-col div p{
+  padding: 0;
+}
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
 }
 .contact-col input, .contact-col textarea{
   width: 100%;
@@ -575,7 +596,4 @@ Questions
   border: 1px solid #ccc;
   box-sizing:border-box ;
 }
-.modal-container h3{
-  color: var(--clr-primary-5);
-  font-family: "Great Vibes", cursive;
-}
+Footer
