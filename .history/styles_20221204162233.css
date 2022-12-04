@@ -440,6 +440,9 @@ nav {
     gap: 0 1.25rem;
     max-width: 40rem;
   }
+    /* .social-icons{
+    display: none;
+  } */
   .photo {
     height: 175px;
   }
@@ -453,7 +456,6 @@ nav {
   .photo {
     height: 150px;
   }
-
 }
 
 /*

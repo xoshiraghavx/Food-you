@@ -443,6 +443,9 @@ nav {
   .photo {
     height: 175px;
   }
+  .about-col img{
+    height: 1;
+  }
 }
 @media screen and (min-width: 1200px) {
 

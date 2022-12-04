@@ -444,8 +444,11 @@ nav {
     height: 175px;
   }
 }
+.social-icons{
+  display: flex ;
+  f
+}
 @media screen and (min-width: 1200px) {
-
   .section-center {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
@@ -453,7 +456,6 @@ nav {
   .photo {
     height: 150px;
   }
-
 }
 
 /*

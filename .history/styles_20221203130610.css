@@ -249,10 +249,11 @@ nav {
   }
   .nav-header {
     padding: 0;
-    display: flex;
-    flex-direction: row;
+    display: block;
   }
-
+  /* .nav-toggle {
+    display: none;
+  } */
   /* .links {
     height: auto;
     display: flex;
@@ -265,7 +266,7 @@ nav {
     padding: 0;
     background: transparent;
   } */
-  /* .social-icons {
+  .social-icons {
     display: flex;
     flex-direction: row;
   }
@@ -276,7 +277,7 @@ nav {
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
-  } */
+  }
 }
 /* modal css  */
 .social-icons {
@@ -445,7 +446,6 @@ nav {
   }
 }
 @media screen and (min-width: 1200px) {
-
   .section-center {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
@@ -453,7 +453,6 @@ nav {
   .photo {
     height: 150px;
   }
-
 }
 
 /*
